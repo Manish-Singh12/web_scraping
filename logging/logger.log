@@ -1,0 +1,48 @@
+2022-09-17 03:09:07,731 Manish INFO Set the url for scraping
+2022-09-17 03:09:07,946 Manish INFO Connect to url by using requests.get method and getting response
+2022-09-17 03:09:07,982 Manish INFO Parse the html response by using BeautifulSoup feature html.parser
+2022-09-17 03:09:07,983 Manish INFO Using findAll method to find all anchor tags available and printing count of them
+2022-09-17 03:09:07,983 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,984 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,984 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,984 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,984 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,984 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,985 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,985 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,985 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,985 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,985 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,986 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO latest Saturday not found
+2022-09-17 03:09:07,987 Manish INFO Found latest Saturday
+2022-09-17 03:09:07,987 Manish INFO Found the latest Saturday tag
+2022-09-17 03:09:07,988 Manish INFO Found link of latest Saturday using href under anchor tag
+2022-09-17 03:09:07,988 Manish INFO Prepared the final url for getting data from latest Saturday
+2022-09-17 03:09:08,391 Manish INFO Connect to final url by using requests.get method and getting response
+2022-09-17 03:09:08,404 Manish INFO Converted the response object to text
+2022-09-17 03:09:08,656 Manish INFO Create file in csv format using open method write mode and passed all the text data into it and finally closed the file
