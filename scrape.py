@@ -67,13 +67,13 @@ try:
     data_text = data_res.text
     logger.info('Converted the response object to text')
 
-    os.chdir('D:\\Python Analysis Projects')
+    os.chdir('D:\\Web scraping')
     os.mkdir('scrape_file')
     os.chdir(os.getcwd() + '\\' + 'scrape_file')
     file = open('latestSaturday.csv','w')
     file.write(data_text)
     file.close()
-    os.chdir('D:\\Python Analysis Projects' + '\\' + 'logging')
+    os.chdir('D:\\Web scraping' + '\\' + 'logging')
     logger.info('Create file in csv format using open method write mode and passed all the text data into it and finally closed the file')
 
 
